@@ -4,6 +4,16 @@ import Footer from '../comps/Footer'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WJ027ZLG2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3WJ027ZLG2');
+</script>
+
 export default function Home() {
   return (
     <>
