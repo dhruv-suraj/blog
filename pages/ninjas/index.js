@@ -1,6 +1,14 @@
 import styles from '../../styles/Ninjas.module.css'
 import Link from 'next/link'
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WJ027ZLG2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-3WJ027ZLG2');
+</script>
 export const getStaticProps = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
