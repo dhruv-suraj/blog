@@ -1,5 +1,13 @@
 
 import Head from 'next/head'
+
+    <meta
+
+      name="description"
+
+      content="Travello provides you with an opportunity to travel to the destinations you always longed for, join this amazing journey."
+
+    />
 const About = () => {
     return ( 
         <>
