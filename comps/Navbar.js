@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+    <meta
+
+      name="description"
+
+      content="Travello provides you with an opportunity to travel to the destinations you always longed for, join this amazing journey."
+
+    />
 const Navbar = () => {
     return ( 
         <nav>
