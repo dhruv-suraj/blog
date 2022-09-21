@@ -2,7 +2,13 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
+<meta
 
+      name="description"
+
+      content="Travello provides you with an opportunity to travel to the destinations you always longed for, join this amazing journey."
+
+    />
 const NotFound = () => {
     const router=useRouter();
     useEffect(() =>{
