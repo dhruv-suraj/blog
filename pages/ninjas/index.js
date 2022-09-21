@@ -1,5 +1,6 @@
 import styles from '../../styles/Ninjas.module.css'
 import Link from 'next/link'
+ <meta name="description" content="__META_DESCRIPTION__"/>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3WJ027ZLG2"></script>
 <script>
